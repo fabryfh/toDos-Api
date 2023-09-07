@@ -1,0 +1,31 @@
+// Dependencias
+
+Cors -> Crea un middleware que ayuda a conectarse a cualquier url que se conecte al api.
+
+Expres -> Es el que ayuda a crear el servidor.
+
+Dotenv -> Es el que ayuda a crear las variables de entorno.
+
+Pg y pg-hstore -> Son los drivers para que las variables de entorno puedan correr en postgres (Dependiendo de la doc, se usará uno o el otro.)
+
+Sequelize-> Es el que ayuda a manejar los métodos del servidor de forma más limpia.
+
+Nodemon -> La herramienta que nos ayuda a actualizar el servidor sin necesidad de tirar el servidor.
+
+
+//Carpetas
+
+- Models -> Es donde vamos a crear todas las tablas.
+
+- Utils -> Es donde vamos a crear el archivo de configuración de nuestro servidor.
+
+- Components -> Es donde vamos a tener las rutas y los controladores de nuestros métodos.
+
+
+// Raíz
+
+Añadir los archivos ".gitignore" y ".env"
+
+// Pasos:
+
+1.- 
