@@ -3,12 +3,14 @@ import db from "./utils/dataBase.js";
 import ToDo from "./models/toDos.model.js";
 import cors from "cors";
 import Todosrouter from "./components/toDos/todo.routes.js";
+import 'dotenv/config'
 
 ToDo;
 
 const app = express();
 
-const PORT = 8000;
+const PORT = process.env.PORT ?? 8000;
+
 app.use(express.json(), cors(), Todosrouter);
 
 db.authenticate()
